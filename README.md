@@ -34,7 +34,7 @@ Mit nur wenigen Klicks integrierst du Vertrauenselemente wie das Shopauskunft-Wi
 ## Voraussetzungen
 
 - Shopware 6.5 und Shopware 6.6 
-- Bestehende Shopauskunft-Mitgliedschaft
+- Bestehende Shopauskunft-Mitgliedschaft ( https://www.shopauskunft.de/ )
 
 ---
 
