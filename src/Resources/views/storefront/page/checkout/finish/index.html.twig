@@ -1,0 +1,23 @@
+{% sw_extends '@Storefront/storefront/page/checkout/finish/index.html.twig' %}
+{% block page_checkout_main_content %}
+    {{ parent() }}
+
+    {% if   config('mzmudaShopAuskunftWidget.config.xclabelActive')  and  config('mzmudaShopAuskunftWidget.config.xclabel') %}
+        <script type="text/javascript">
+            var fetched_data = {
+                'xc_label': '{{ config("mzmudaShopAuskunftWidget.config.xclabel") }}',
+                'shop_name': '{{ context.salesChannel.name }} ',
+                'email': '{{ page.order.orderCustomer.email }} ',
+                'shop_type': '1',
+                'order_id': '{{ page.order.orderNumber }} ',
+                'order_value': '{{ page.order.amountTotal }} ',
+                'shipping_value': '{{ page.order.shippingTotal }} ',
+                'language': '{{ page.header.activeLanguage.translationCode.code }} ',
+                'url': window.location.hostname,
+                'token': 'IEqggoqlBJdA/gCRrKsRmQ'
+            }
+        </script>
+        <script type="text/javascript" src="https://rba.shopauskunft.de/js/rba_widget.js" id="rba_widget"
+                async></script>
+    {% endif %}
+{% endblock %}

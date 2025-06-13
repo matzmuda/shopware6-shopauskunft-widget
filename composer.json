@@ -1,0 +1,50 @@
+{
+    "name": "mzmuda-shop-auskunft-widget/mzmuda-shop-auskunft-widget",
+    "description": "Shopauskunft Widget und Integration Bewertungsanfrage ",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "proprietary",
+
+    "require": {
+        "shopware/core": "^6.5 || ^6.6"
+    },
+    "authors": [
+        {
+            "name": "Mateusz Zmuda Shopware Freelancer - www.mzmuda.de",
+            "email": "info@mzmuda.de",
+            "homepage": "https://www.mzmuda.de",
+            "role": "Developer"
+
+        }
+    ],
+    "extra": {
+        "shopware-plugin-class": "mzmudaShopAuskunftWidget\\mzmudaShopAuskunftWidget",
+        "label": {
+            "de-DE": "Shopauskunft Widget und Integration Bewertungsanfrage",
+            "en-GB": "ShopAuskunft Widget and Rating Integration"
+        },
+        "description": {
+            "de-DE": "Shopauskunft Widget und Integration Bewertungsanfrage | www.mzmuda.de",
+            "en-GB": "ShopAuskunft Widget and Rating Integration | www.mzmuda.de"
+
+        },
+        "manufacturerLink": {
+            "de-DE": "https://www.mzmuda.de",
+            "en-GB": "https://www.mzmuda.de"
+        },
+        "supportLink": {
+            "de-DE": "https://www.mzmuda.de",
+            "en-GB": "https://www.mzmuda.de"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "mzmudaShopAuskunftWidget\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "mzmudaShopAuskunftWidget\\Tests\\": "tests/"
+        }
+    }
+}

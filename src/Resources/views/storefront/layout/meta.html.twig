@@ -1,0 +1,10 @@
+{% sw_extends '@Storefront/storefront/layout/meta.html.twig' %}
+{% block layout_head_javascript_feature %}
+
+    {% if config('mzmudaShopAuskunftWidget.config.active')  %}
+        <script src="https://widget.shopauskunft.de/assets/widget.js" type="text/javascript"></script>
+    {% endif %}
+
+    {{ parent() }}
+
+{% endblock %}

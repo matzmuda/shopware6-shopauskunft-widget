@@ -1,0 +1,8 @@
+{% sw_extends '@Storefront/storefront/layout/footer/footer.html.twig' %}
+
+{% block layout_footer_bottom %}
+    {{ parent() }}
+    {% if config('mzmudaShopAuskunftWidget.config.active') and  config('mzmudaShopAuskunftWidget.config.widgetCode') %}
+        {{ config('mzmudaShopAuskunftWidget.config.widgetCode')|raw}}
+    {% endif %}
+{% endblock %}

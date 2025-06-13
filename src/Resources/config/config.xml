@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>ShopAuskunft Widget</title>
+        <input-field type="bool">
+            <name>active</name>
+            <label>Widget Aktiv</label>
+            <defaultValue>false</defaultValue>
+            <helpText>Wenn Active javascript https://widget.shopauskunft.de/assets/widget.js zum HEAD hinzugefügt wird
+            </helpText>
+
+        </input-field>
+
+        <input-field type="textarea">
+            <name>widgetCode</name>
+            <label>Widget Code ( nur Flying widget )</label>
+            <defaultValue></defaultValue>
+            <placeholder><![CDATA[zb.  <div class="shopauskunft-widget" data-widget-id="e3xxxxxx5" data-widget-theme="light" data-retailer-id="xxxxxxx-shop" data-widget-locale="de_DE">&nbsp;</div>]]>
+            </placeholder>
+        </input-field>
+
+    </card>
+
+
+    <card>
+        <title>ShopAuskunft Bewertungsanfrage (RBA)</title>
+        <input-field type="bool">
+            <name>xclabelActive</name>
+            <label>RBA Aktiv</label>
+            <defaultValue>false</defaultValue>
+        </input-field>
+
+        <input-field>
+            <name>xclabel</name>
+            <label>xc_label ( RBA )</label>
+            <placeholder>zb. S000XXXX</placeholder>
+            <helpText>In $xc_clabel muss deine Shopauskunft-ID hinterlegt werden (z.B. S00033098). Deine Shopauskunft-ID
+                findest du im Händlercenter.
+            </helpText>
+        </input-field>
+    </card>
+
+
+</config>
