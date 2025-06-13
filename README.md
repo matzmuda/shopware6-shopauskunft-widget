@@ -8,7 +8,7 @@ Mit nur wenigen Klicks integrierst du Vertrauenselemente wie das Shopauskunft-Wi
 
 
 
-<img src="https://mzmuda.de/shopware6-plugins/shopware-freelancer-shopsakunft.png" width="300" alt="Shopware Shopsakunft">
+<img src="https://mzmuda.de/shopware6-plugins/shopware-freelancer-shopsakunft.png" width="600" alt="Shopware Shopsakunft">
 ---
 
 ## Highlights
@@ -27,7 +27,7 @@ Mit nur wenigen Klicks integrierst du Vertrauenselemente wie das Shopauskunft-Wi
 5. Widget und Bewertungseinladungen sind automatisch aktiv.
 
 
-<img src="https://mzmuda.de/shopware6-plugins/shopware6-widget-configuration.png" width="300" alt="Shopware Shopsakunft">
+<img src="https://mzmuda.de/shopware6-plugins/shopware6-widget-configuration.png" width="600" alt="Shopware 6  konfiguration">
 
 ---
 
@@ -40,7 +40,7 @@ Mit nur wenigen Klicks integrierst du Vertrauenselemente wie das Shopauskunft-Wi
 
 ## Support
 
-Bei Fragen oder Problemen wende dich gerne an den Autor.
+Gerne per e-mail: info@mzmuda.de
 
 **Autor:**  
 
