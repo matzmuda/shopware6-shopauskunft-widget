@@ -23,7 +23,7 @@ Mit nur wenigen Klicks integrierst du Vertrauenselemente wie das Shopauskunft-Wi
 1. Plugin herunterladen: http://mzmuda.de/shopware6-plugins/mzmudaShopAuskunftWidget-SW65-SW66.zip
 2. Im Shopware-Adminbereich unter „Erweiterungen > Meine Erweiterungen“ das Plugin hochladen und installieren.
 3. Plugin aktivieren.
-4. Shopauskunft-konfiguration im Plugin-Konfigurationsbereich eintragen.
+4. Plugin-Konfigurationsbereich eintragen.
 5. Widget und Bewertungseinladungen sind automatisch aktiv.
 
 
