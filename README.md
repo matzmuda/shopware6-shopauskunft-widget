@@ -34,7 +34,7 @@ Mit nur wenigen Klicks integrierst du Vertrauenselemente wie das Shopauskunft-Wi
 ## Voraussetzungen
 
 - Shopware 6.5 und Shopware 6.6 
-- Bestehende Shopauskunft-Mitgliedschaft ( https://www.shopauskunft.de/  [https://affiliate.haendlerbund.de/go.cgi?pid=2164&wmid=604&cpid=1&prid=130&subid=&target=Shopauskunft_LP_P](click) )
+- Bestehende Shopauskunft-Mitgliedschaft ( shopauskunft.de -   https://affiliate.haendlerbund.de/go.cgi?pid=2164&wmid=604&cpid=1&prid=130&subid=&target=Shopauskunft_LP_P )
 
 ---
 
