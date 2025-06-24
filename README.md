@@ -18,8 +18,8 @@ Mit nur wenigen Klicks integrierst du Vertrauenselemente wie das Shopauskunft-Wi
 
 ---
 
-## Installation
-
+## Installation 
+### Bitte teste das Plugin zunächst auf einem Testsystem
 1. Plugin herunterladen: http://mzmuda.de/shopware6-plugins/mzmudaShopAuskunftWidget-SW65-SW66.zip
 2. Im Shopware-Adminbereich unter „Erweiterungen > Meine Erweiterungen“ das Plugin hochladen und installieren.
 3. Plugin aktivieren.
@@ -53,7 +53,17 @@ Mateusz Zmuda – Shopware Freelancer
 
 ## Lizenz
 
-Dieses Plugin steht unter einer kommerziellen Lizenz. Weitere Informationen findest du auf der Website des Autors.
+Jedem Nutzer (natürliche oder juristische Person) wird das nicht-exklusive Recht eingeräumt, diese Software in unveränderter Form kostenlos unter den folgenden Bedingungen:
+
+1. Die Software darf **nicht verändert**, zurückentwickelt oder in abgewandelter Form weiterverbreitet werden.
+2. Die Weitergabe darf ausschließlich in der **unveränderten Originalform** erfolgen.
+3. Der Urheberrechtshinweis sowie dieser vollständige Lizenztext müssen jeder Kopie beigefügt werden.
+4. Der Name des Autors darf **nicht aus Benutzeroberflächen oder Dokumentationen entfernt** werden, sofern er dort enthalten ist.
+5. Eine **kommerzielle und nicht-kommerzielle Nutzung** ist ausdrücklich erlaubt.
+6. Die Software wird **ohne jegliche Gewährleistung** bereitgestellt („as is“). Der Autor übernimmt keine Haftung für direkte oder indirekte Schäden, die aus der Nutzung resultieren.
+
+Mit der Nutzung oder Weitergabe dieser Software erklärt sich der Nutzer mit den oben genannten Bedingungen einverstanden.
+Weitere Informationen findest du auf der Website des Autors.
 
 ---
 
